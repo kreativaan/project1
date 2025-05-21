@@ -7,7 +7,9 @@
 @source '../**/*.js';
 
 @theme {
+    --text-2xs: 0.625rem;
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-hanken-grotesk: 'Hanken Grotesk', sans-serif;
     --color-black:  #060606;
 }

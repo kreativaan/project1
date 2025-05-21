@@ -13,7 +13,7 @@
         {{-- tags --}}
         <section>
             <x-section-heading>Tags</x-section-heading>
-            <div class="mt-6 space-x-1">
+            <div class="mt-6 space-x-1 ">
                 <x-tag>Tag</x-tag>
                 <x-tag>Tag</x-tag>
                 <x-tag>Tag</x-tag>
@@ -33,6 +33,11 @@
 
         <section>
             <x-section-heading>Recent Jobs</x-section-heading>
+            <div class="mt-6 space-y-6">
+                <x-job-card-wide></x-job-card-wide>
+                <x-job-card-wide></x-job-card-wide>
+                <x-job-card-wide></x-job-card-wide>
+            </div>
 
         </section>
 
